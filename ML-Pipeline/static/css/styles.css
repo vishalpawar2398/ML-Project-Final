@@ -1,0 +1,52 @@
+
+
+
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the background image */
+.background {
+    background-image: url('../images/banner-05.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+}
+
+/* Form field styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
